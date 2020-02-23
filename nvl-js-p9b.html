@@ -12,7 +12,17 @@ var lugares = "Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti"
 dias = dias.split(","));
 lugares = lugares.split("."));
 
-var mix;
+// Informamos el array multidimensional
+var mix = new Array(7);
+mix[0] = new Array(2);
+mix[1] = new Array(2);
+mix[2] = new Array(2);
+mix[3] = new Array(2);
+mix[4] = new Array(2);
+mix[5] = new Array(2);
+mix[6] = new Array(2);
+
+// Cargamos los datos.
 mix[0][0] = dias[0];
 mix[0][1] = lugar[0];
 mix[1][0] = dias[1];
